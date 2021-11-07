@@ -403,6 +403,7 @@
     margin-right: 0;
 }
 .buttonsBasis{
+    width: 1920px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -439,6 +440,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 1920px;
 }
 .toBuyListRow{
     margin-top: 20px;
@@ -446,7 +448,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 1520px;
+    width: 100%;
 }
 .toBuyListColumn{
     display: flex;
@@ -490,4 +492,12 @@
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 1920px;
+}
+.toBuyListAlignment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
 }
