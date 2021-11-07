@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.paddingLeft{
+    padding-left: 10px;
+}
+.marginLeft{
+    margin-left: 10px;
+}
+.positionAbs{
+    position: absolute;
+}
+
+#navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    background: #0F2438;
+}
+
+#navBarMenu{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 1520px;
+    height: 36px;
+}
+#location{
+    display: flex;
+    flex-direction: row;
+}
+.navBarLeft{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navBarRight{
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#infoBar{
+    width: 1920px;
+    height: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.infoBarMain{
+    display: flex;
+    flex-direction: column;
+    width: 1520px;
+    height: 100%;
+}
+.infoBarTop{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#logo{
+    width: 66px;
+    height: 71px;
+    font-size: 66px;
+}
+.infoIcon{
+    font-size: 30px;
+}
+
+.infoBarBot{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactBtn{
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #E1EFD0;
+    height: 30px;
+}
+.contactIco{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: limegreen;
+    border-radius: 10px;
+    height: 20px;
+}
+.connectToUs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.list{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #005BB9;
+    border-radius: 6px;
+    width: 164px;
+    height: 53px;
+}
+.list:hover{
+    background-color: #3777b3;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background-color: #F4F5FA;
+}
+.searchSpace{
+    width: 549px;
+    height: 53px;
+}
+.searchBtn{
+    cursor: pointer;
+    width: 101px;
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005BB9;
+
+}
+.searchBtn:hover{
+    background-color: #3777b3;
+}
+.searchInput{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: none;
+    background-color: transparent;
+}
+.searchInput::-webkit-input-placeholder {
+    color:#C2C5DA;
+    padding-left: 10px;
+}
+
+.userInfo{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.borderLeft{
+    border-left: 1px solid #E1E5F8;
+}
+.menuDevider{
+    height: 30px;
+}
+#sliderBar{
+    width: 1920px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderBarMain{
+    display: flex;
+    flex-direction: row;
+    width: 1520px;
+    height: 390px;
+    justify-content: space-between;
+
+}
+.sliderLeftBgImg{
+
+}
+.sliderLeft{
+    display: flex;
+    flex-direction: column;
+    width: 1174px;
+    height: 100%;
+    background: url("images/03 1.png") no-repeat;
+    opacity: 20;
+    background-size: cover;
+    border-radius: 20px;
+    mix-blend-mode: overlay;
+}
+.sliderLeftTop{
+    display: flex;
+    width: 100%;
+    height: 95%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.circle{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle:hover{
+    background: #005BB9;
+}
+.discountPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 417px;
+    height: 356px;
+}
+.mainDiscount{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#discValue{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.toBuyListButton{
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height: 49px;
+    width: 160px;
+    background: #005BB9;
+}
+.toBuyListButton:hover{
+    background-color: #3777b3;
+}
+#sliderLeftBtn{
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    height: 49px;
+    width: 160px;
+    background: #005BB9;
+}
+#sliderLeftBtn:hover{
+    background-color: #3777b3;
+}
+.sliderLeftBot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.radioBtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.radioBtn:active{
+    background-color: white;
+    color: black;
+}
+.radioBtn label:hover:before {
+    filter: brightness(120%);
+}
+.sliderRight{
+    display: flex;
+    flex-direction: column;
+}
+.paddingBot{
+    margin-bottom: 10px;
+}
+.sliderRightDiscount{
+    padding: 15px;
+    display: flex;
+    width: 300px;
+    height: 175px;
+    background-color: #F4F5FA;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.sideDiscountInfo{
+    display: flex;
+    flex-direction: row;
+}
+.sideDiscountPhoto{
+    height: 94px;
+    width: 100px;
+}
+.sideDiscountAddInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.sideDiscountValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sideDiscountBtn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: #005BB9;
+    width: 57px;
+    height: 49px;
+    border-radius: 6px;
+}
+.sideDiscountBtn:hover{
+    background-color: #3777b3;
+}
+.categoryBasis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 300px;
+}
+.category{
+    width: 1520px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.categoryPosition{
+    border: 1px solid #E1E5F8;
+    border-radius: 6px;
+    width: 28%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px 10px 10px;
+    justify-content: space-between;
+}
+.positionInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.posBtn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005BB9;
+    width: 86px;
+    height: 26px;
+    border-radius: 4px;
+    margin: 10px;
+}
+.posBtn:hover{
+    background-color: #3777b3;
+}
+.positionImg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0;
+}
+.buttonsBasis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1520px;
+    height: 50px;
+}
+.btnStyle{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005BB9;
+    background-color: #FFFFFF;
+    border: 2px solid #005BB9;
+    border-radius: 6px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-right: 12px;
+    margin-left: 8px;
+}
+.btnStyle:hover{
+    color: #FFFFFF;
+    background-color: #005BB9;
+}
+.toBuyListBasis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.toBuyListRow{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1520px;
+}
+.toBuyListColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 23%;
+}
+
+.toBuyListImg{
+    width: 267px;
+    height: 235px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toBuyListReview{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.toBuyListBtn{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.toBuyListIcons{
+    color: #005BB9;
+    font-size: 40px;
+}
+.toSellPhoto{
+    width: 270px;
+    height: 213px;
+}
+.showMoreBasis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

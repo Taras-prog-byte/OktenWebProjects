@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.topBarFontStyle{
+    color: aliceblue;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    padding-right: 3px;
+}
+#yourCity{
+    text-decoration: underline;
+}
+.name{
+    color: #0F2438;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-shadow: none;
+}
+.description{
+    color: #0F2438;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    text-shadow: none;
+}
+.infoBarDefText{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: #0F2438;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-shadow: none;
+}
+.alignTextRight{
+    display: flex;
+    justify-content: flex-end;
+}
+.logoText{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.contactTxt{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.number{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0F2438;
+}
+.feedbackForm{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #0F2438;
+    opacity: 70%;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.listText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.searchBtnTxt{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.menuText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0F2438;
+}
+.menuTextCart{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0F2438;
+}
+#discName{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #0A1A2C;
+    /*margin-bottom: 10px;*/
+}
+#discArticle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #717171;
+    margin-bottom: 15px;
+}
+#mainDiscCurrent{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    color:#005BB9;
+}
+#mainDiscOld{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color:#C2C5DA;
+    text-decoration: line-through;
+}
+.sliderLeftBtnTxt{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.sideDiscount{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0F2438;
+}
+.sideDiscountName{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #0A1A2C;
+}
+.sideDiscountArticle{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #525252;
+}
+.sideDiscountGoldValue{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFB800;
+}
+.sideDiscountOldValue{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #C2C5DA;
+    text-decoration: line-through;
+}
+.posName{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0A1A2C;
+    margin: 10px;
+}
+.posDecr{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0A1A2C;
+    margin: 10px;
+}
+.posBtn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+
+}
+.stars{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFB800;
+}
+.reviews{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #B0B0B0;
+}
+.toBuyListName{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0A1A2C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.toBuyListValue{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #005BB9;
+    text-transform: lowercase;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 5px;
+}

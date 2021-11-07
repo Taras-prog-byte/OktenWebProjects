@@ -1,0 +1,14 @@
+{
+  "name": "html_project",
+  "version": "1.0.0",
+  "description": "OktenWebHtmlProject",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taras Kropyvnytskyi",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
+  }
+}
